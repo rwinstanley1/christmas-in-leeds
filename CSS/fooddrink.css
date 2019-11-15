@@ -4,22 +4,12 @@
 
 body {
   font: 15px arial, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #39352A;
-  background-image: url("../images/tree.jpg");
+  margin: auto;
+  color: black;
+  background-color: #FBFDFA;
 }
 
-
-header {
-  height: 80%;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  margin: 0 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+main {
 
 }
 
@@ -31,10 +21,7 @@ nav {
   margin-top: 0;
 	padding: 0;
   display: block;
-  border: 1px solid #555;
-  color: #ffff;
-  font-size: 30px;
-  text-shadow: 2px 2px #2A2927;
+  font-size: 25px;
 }
 
 .mainnav {
@@ -42,20 +29,57 @@ nav {
   padding: 14px 16px;
   width: 95%;
 	margin: auto;
-	padding: 0;
   align-items: stretch;
+
 }
 
 nav a {
-  padding: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 nav a:hover {
- background-color: #D97823;
+ background-color: #17252A;
 }
 
 .dropdown {
   display: none;
+}
+
+
+a {
+  color: inherit;
+}
+
+section {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 20px;
+
+}
+
+.foodfestivals, .roasts, .drinks {
+  background-color: #FEF0BF;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.subhead {
+  background-color: 	#66592E;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 2%;
+  width: 60%;
+  color: #ffff;
+}
+
+.blank {
+  width: 30%;
+
 }
 
 @media screen and (max-width: 1150px) {
@@ -65,6 +89,10 @@ nav a:hover {
 }
 
 @media screen and (max-width: 700px) {
+  .subhead {
+    padding-left: 22%;
+  }
+
   nav {
     overflow: hidden;
     align-items:center;
@@ -73,7 +101,7 @@ nav a:hover {
     padding: 0;
     display: block;
     border: 1px solid #555;
-    color: #ffff;
+    color: black;
     font-size: 20px;
     text-shadow: 2px 2px #2A2927;
     font-family: inherit;
@@ -81,7 +109,7 @@ nav a:hover {
   }
 
   .dropbtn {
-  background: none;
+  background-color: black;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -119,29 +147,4 @@ nav a:hover {
   .mainnav {
     display: none;
   }
-}
-
-.title, .subhead {
-  align-self: center;
-  padding-top: 100px;
-  text-align: center;
-  color: #fff;
-  font-weight: bolder;
-  text-shadow: 2px 2px black;
-}
-
-.content {
-  background-color: #fff;
-  align-self: center;
-  margin: auto;
-  color: #39352A;
-  width: 50%;
-}
-
-h1 {
-  font-size: 80px;
-}
-
-a {
-  color: inherit;
 }

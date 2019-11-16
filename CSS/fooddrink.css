@@ -6,7 +6,7 @@ body {
   font: 15px arial, sans-serif;
   margin: auto;
   color: black;
-  background-color: #FBFDFA;
+  background-color: #0F8A5F;
 }
 
 main {
@@ -22,6 +22,7 @@ nav {
 	padding: 0;
   display: block;
   font-size: 25px;
+  color: #FEFAF4;
 }
 
 .mainnav {
@@ -59,22 +60,23 @@ section {
 }
 
 .foodfestivals, .roasts, .drinks {
-  background-color: #FEF0BF;
+  background-color: #FEFAF4;
 }
 
 .heading {
+  padding: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
 .subhead {
-  background-color: 	#66592E;
+  background-color: #FEFAF4;
   padding-top: 7%;
   padding-bottom: 7%;
   padding-left: 2%;
   width: 60%;
-  color: #ffff;
+  color: #232426;
 }
 
 .blank {

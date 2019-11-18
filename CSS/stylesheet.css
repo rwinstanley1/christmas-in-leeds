@@ -3,47 +3,43 @@
 }
 
 body {
-  font: 15px arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-left: auto;
   margin-right: auto;
-  background-color: #39352A;
-  background-image: url("../images/tree.jpg");
-}
-
-
-header {
-  height: 80%;
+  background-color: #f5f1e9;
+  background-size: cover;
   top: 0;
-  position: fixed;
-  width: 100%;
   margin: 0 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-
 }
+
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', cursive;
+}
+
 
 nav {
   overflow: hidden;
   align-items:center;
   width: 100%;
   float: left;
-  margin-top: 0;
-	padding: 0;
   display: block;
-  border: 1px solid #555;
-  color: #ffff;
+  color: #ff6860;
+  text-transform: uppercase;
+  background-color: #ffffff;
   font-size: 30px;
-  text-shadow: 2px 2px #2A2927;
 }
 
 .mainnav {
   text-align: center;
-  padding: 14px 16px;
   width: 95%;
 	margin: auto;
-	padding: 0;
-  align-items: stretch;
+  position: relative;
+  height: 10%;
+}
+
+.navitem {
+  text-align: center;
+  vertical-align: middle;
 }
 
 nav a {
@@ -51,7 +47,8 @@ nav a {
 }
 
 nav a:hover {
- background-color: #D97823;
+ background-color: #ff6860;
+ color: #ffffff;
 }
 
 .dropdown {
@@ -60,7 +57,7 @@ nav a:hover {
 
 @media screen and (max-width: 1150px) {
   nav a {
-    padding: 0;
+    padding: 3% ;
   }
 }
 
@@ -73,16 +70,12 @@ nav a:hover {
     padding: 0;
     display: block;
     border: 1px solid #555;
-    color: #ffff;
     font-size: 20px;
-    text-shadow: 2px 2px #2A2927;
     font-family: inherit;
     position: fixed;
   }
 
   .dropbtn {
-  background: none;
-  color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -98,22 +91,22 @@ nav a:hover {
   }
 
   .dropdown-content a {
-    color: white;
+    color: #ff6860;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
 
   .dropdown-content a:hover {
-    background-color: #2D2926;
-    color: #D97823;
+    background-color: #ff6860;
+    color: #ffffff;
   }
 
   .dropdown:hover .dropdown-content {
     display: block;}
 
   .dropdown:hover .dropbtn {
-    background-color: #2D2926;
+    background-color: #ff6860;
   }
 
   .mainnav {
@@ -121,27 +114,44 @@ nav a:hover {
   }
 }
 
-
-
-
-
-.title, .subhead {
+.title {
   align-self: center;
-  padding-top: 100px;
+  padding-top: 7%;
   text-align: center;
   color: #fff;
   font-weight: bolder;
-  text-shadow: 2px 2px black;
 }
 
-.content {
-  background-color: #fff;
+.subhead {
   align-self: center;
-  margin: auto;
-  color: #39352A;
-  width: 50%;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 30px;
 }
 
 h1 {
   font-size: 80px;
+  margin-top: 12%;
+}
+
+a {
+  color: inherit;
+}
+
+.background {
+  background-image: url(../images/presents.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 5%;
+  padding-bottom: 3.5%;
+}
+
+.content {
+ color: white;
+ top: 0;
+ margin: 10% 20%;
+ font-size: 25px;
 }

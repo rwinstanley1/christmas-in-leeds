@@ -34,7 +34,6 @@ nav {
  text-transform: uppercase;
  background-color: #ffffff;
  font-size: 30px;
- padding: 2%;
 }
 
 .calender {
@@ -47,6 +46,11 @@ nav {
   margin: auto;
   position: relative;
   height: 10%;
+}
+
+.navitem {
+ text-align: center;
+ vertical-align: middle;
 }
 
 nav a {

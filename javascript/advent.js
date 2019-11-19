@@ -9,6 +9,4 @@ grid.addEventListener( 'click', function( event ) {
   if ( !event.target.classList.contains('grid-item') ) {
     return;
   }
-  event.target.classList.toggle('grid-item--large');
-  pckry.layout();
 });

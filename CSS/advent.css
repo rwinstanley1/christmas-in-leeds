@@ -142,12 +142,6 @@ main {
   margin-right: 25px;
 }
 
-.grid-item { width: 15%; }
-
-.grid-item--width2 { width: 30%; }
-
-
-
 .grid-item {
   float: left;
   width: 150px;

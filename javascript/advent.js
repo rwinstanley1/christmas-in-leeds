@@ -6,7 +6,6 @@ var pckry = new Packery( grid, {
 });
 
 grid.addEventListener( 'click', function( event ) {
-  // filter for grid-item clicks
   if ( !event.target.classList.contains('grid-item') ) {
     return;
   }

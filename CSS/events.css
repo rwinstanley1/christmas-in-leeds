@@ -75,7 +75,7 @@ nav {
 
 .content {
   grid-column: 2 / 4;
-  grid-row: 4 / 10;
+  grid-row: 3 / 10;
   background-color: white;
   z-index: 2;
   border-radius: 30px;

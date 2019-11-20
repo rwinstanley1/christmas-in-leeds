@@ -34,7 +34,6 @@ nav {
  text-transform: uppercase;
  background-color: #ffffff;
  font-size: 30px;
- padding: 2%;
 }
 
 .calender {
@@ -47,6 +46,11 @@ nav {
   margin: auto;
   position: relative;
   height: 10%;
+}
+
+.navitem {
+ text-align: center;
+ vertical-align: middle;
 }
 
 nav a {
@@ -138,8 +142,8 @@ a {
 }
 
 main {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: 40px 25px;
+  padding-right: 10px;
 }
 
 .grid-item {
@@ -183,8 +187,8 @@ main {
 }
 .hvr-hollow-green:hover, .hvr-hollow-green:focus, .hvr-hollow-green:active {
   background: #ecfce8;
-  width: 155px;
-  height: 155px;
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 .hvr-hollow-red {
@@ -198,8 +202,8 @@ main {
 
 .hvr-hollow-red:hover, .hvr-hollow-red:focus, .hvr-hollow-red:active {
   background: #ffb4b0;
-  width: 155px;
-  height: 155px;
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 .hvr-hollow-blue {
@@ -213,6 +217,6 @@ main {
 
 .hvr-hollow-blue:hover, .hvr-hollow-blue:focus, .hvr-hollow-blue:active {
   background: #49acb8;
-  width: 155px;
-  height: 155px;
+  transform: scale(1.1);
+  z-index: 1;
 }

@@ -210,7 +210,7 @@ img {
   margin: 20px;
 }
 
-@media screen and (max-width: 1000px)  {
+@media screen and (max-width: 1000px) {
     .events {
     flex-wrap: wrap;
   }

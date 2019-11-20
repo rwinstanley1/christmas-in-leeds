@@ -187,8 +187,8 @@ main {
 }
 .hvr-hollow-green:hover, .hvr-hollow-green:focus, .hvr-hollow-green:active {
   background: #ecfce8;
-  width: 155px;
-  height: 155px;
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 .hvr-hollow-red {
@@ -202,8 +202,8 @@ main {
 
 .hvr-hollow-red:hover, .hvr-hollow-red:focus, .hvr-hollow-red:active {
   background: #ffb4b0;
-  width: 155px;
-  height: 155px;
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 .hvr-hollow-blue {
@@ -217,6 +217,6 @@ main {
 
 .hvr-hollow-blue:hover, .hvr-hollow-blue:focus, .hvr-hollow-blue:active {
   background: #49acb8;
-  width: 155px;
-  height: 155px;
+  transform: scale(1.1);
+  z-index: 1;
 }

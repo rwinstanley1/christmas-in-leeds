@@ -1,4 +1,4 @@
-/* all page styling!! */
+/* !!all page styling!! */
 
   /* generic page styling */
 *{
@@ -83,7 +83,7 @@ a {
   text-decoration: underline;
 }
 
-/* home page specific */
+/* !!home page specific!! */
 
 .home-body {
   overflow: hidden
@@ -133,7 +133,7 @@ a {
   z-index: 2;
 }
 
-/* listings specific */
+/* !!listings specific!! */
 
 .listings {
   color: black;
@@ -187,7 +187,7 @@ a {
   margin: 20px;
 }
 
-/* advent calendar specific */
+/* !!advent calendar specific!! */
 
 .advent  {
   font-size: 160%;
@@ -200,7 +200,8 @@ a {
 }
 
 .grid {
-  padding-top: 5%;
+  margin-top: 5%;
+  max-width: 1200px;
 }
 
 .grid-item {
@@ -211,7 +212,6 @@ a {
 
 .grid-item--width2 { width: 300px; }
 .grid-item--height2 { height: 300px; }
-
 
 .six, .eighteen, .fifteen, .three, .twelve, .nine, .twentyfour, .fourteen, .twentytwo {
   background-color: #ff6860
@@ -277,7 +277,7 @@ a {
   z-index: 1;
 }
 
-/* Media Queries - responsive layout */
+/* !!Media Queries - responsive layout!! */
 
   @media screen and (max-width: 1350px) {
    nav a {

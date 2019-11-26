@@ -317,10 +317,15 @@ a {
      z-index: 2;
    }
 
+   .home-body {
+     overflow: visible;
+   }
+
    .home-heading {
      grid-column: 2 / 4;
      grid-row: 1 / 8;
      background-image: url(../images/presents.jpg);
+
    }
 
    .home-title {

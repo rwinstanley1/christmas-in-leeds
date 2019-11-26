@@ -113,6 +113,7 @@ a {
 .home-heading {
   grid-column: 2 / 4;
   grid-row: 2 / 8;
+  background-image: url(../images/presents.jpg);
 }
 
 .home-title {
@@ -298,7 +299,7 @@ a {
 
     .container {
       display: grid;
-      grid-template-columns: 2fr 4fr;
+      grid-template-columns: 1fr 4fr;
     }
 
     nav {
@@ -313,6 +314,30 @@ a {
      font-size: 20px;
      font-family: inherit;
      position: fixed;
+     z-index: 2;
+   }
+
+   .home-heading {
+     grid-column: 2 / 4;
+     grid-row: 1 / 8;
+     background-image: url(../images/presents.jpg);
+   }
+
+   .home-title {
+     grid-column: 2 / 4;
+     grid-row: 3 / 4;
+     z-index: 2;
+   }
+
+   .home-subtitle {
+     grid-column: 2 / 4;
+     grid-row: 4 / 5;
+     z-index: 2;
+   }
+
+   .home-content {
+     grid-column: 2 / 4;
+     grid-row: 5 / 6;
      z-index: 2;
    }
 

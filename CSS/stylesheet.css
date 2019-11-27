@@ -155,7 +155,7 @@ a {
 .home-heading {
   grid-column: 2 / 4;
   grid-row: 2 / 8;
-  background-image: url(../images/presents.jpg);
+  background-image: url(../Images/presents.jpg);
 }
 
 .home-title {
@@ -367,7 +367,7 @@ a {
    .home-heading {
      grid-column: 2 / 4;
      grid-row: 1 / 8;
-     background-image: url(../images/presents.jpg);
+     background-image: url(../Images/presents.jpg);
 
    }
 

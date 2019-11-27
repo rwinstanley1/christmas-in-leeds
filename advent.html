@@ -2,66 +2,81 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="./css/advent.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <title>Advent Calender</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advent Calender</title>
   </head>
 
-  <body>
+  <body class="advent">
 
     <div class="container">
       <nav>
-          <div class="mainnav">
-            <a href="home.html" class="home navitem">Home</a>
-            <a href="fooddrink.html" class="navitem food">Food & Drink</a>
-            <img src="./images/treelogo2.png" width=60px class="navitem">
-            <a class="navitem markets">Markets</a>
-            <a class="navitem events">Events</a>
+        <div class="mainnav">
+          <a href="home.html" class="navitem">Home</a>
+          <a class="navitem">About Us</a>
+          <a href="advent.html" class="active navitem">Leeds Advent</a>
+          <img src="./images/treelogo2.png" width=60px class="navitem">
+          <a href="fooddrink.html" class="navitem">Food & Drink</a>
+          <a class="navitem">Markets</a>
+          <a href="events.html" class="navitem">Events</a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn"><img src="./images/treelogo2.png" width=60px></button>
+          <div class="dropdown-content">
+            <a href="home.html" class="navitem">Home</a>
+            <a class="navitem">About Us</a>
+            <a href="advent.html" class="active navitem">Leeds Advent</a>
+            <a href="fooddrink.html" class="navitem">Food & Drink</a>
+            <a>Markets</a>
+            <a href="events.html" class="navitem">Events</a>
           </div>
-          <div class="dropdown">
-            <button class="dropbtn"><img src="./images/treelogo2.png" width=60px></button>
-            <div class="dropdown-content">
-              <a class="home">Home</a>
-              <a>Food & Drink</a>
-              <a>Markets</a>
-              <a>Things to Do</a>
-            </div>
-          </div>
-        </nav>
+        </div>
+      </nav>
+
         <main class="calender grid">
           <div class="title grid-item grid-item--width2 grid-item--height2"><h1>Leeds Advent Calender<h1></div>
-          <div class="six grid-item"><h2>6</h2></div>
+          <a href="fooddrink.html#6"><div class="six hvr-hollow-red grid-item"><h2>6</h2></div></a>
           <div class="twentytwo grid-item"><h2>22</h2></div>
           <div class="twelve grid-item"><h2>12</h2></div>
-          <div class="one grid-item"><h2>1</h2></div>
           <div class="four grid-item"><h2>4</h2></div>
-          <div class="twentyone grid-item"><h2>21</h2></div>
+          <a href="events.html#21"><div class="twentyone hvr-hollow-blue grid-item"><h2>21</h2></div></a>
           <div class="twentyfive grid-item"><h2>25</h2></div>
           <div class="two grid-item"><h2>2</h2></div>
-          <div class="eighteen grid-item"><h2>18</h2></div>
+          <div class="one grid-item"><h2>1</h2></div>
+          <a href="fooddrink.html#18"><div class="eighteen hvr-hollow-red grid-item"><h2>18</h2></div></a>
           <div class="nine grid-item"><h2>9</h2></div>
           <div class="seventeen grid-item"><h2>17</h2></div>
           <div class="sixteen grid-item"><h2>16</h2></div>
-          <div class="nineteen grid-item"><h2>19</h2></div>
+          <a href="events.html#19"><div class="nineteen hvr-hollow-blue grid-item"><h2>19</h2></div></a>
           <div class="three grid-item"><h2>3</h2></div>
-          <div class="eight hvr-hollow-green grid-item"><a href="fooddrink.html#8"><h2>8<h2></a></div>
+          <a href="fooddrink.html#8"><div class="eight hvr-hollow-green grid-item"><h2>8<h2></div></a>
           <div class="five grid-item"><h2>5</h2></div>
-          <div class="fifteen grid-item"><h2>15</h2></div>
+          <a href="events.html#15"><div class="fifteen hvr-hollow-red grid-item"><h2>15</h2></div></a>
           <div class="seven grid-item"><h2>7</h2></div>
           <div class="twentythree grid-item"><h2>23</h2></div>
           <div class="ten grid-item"><h2>10<h2></div>
-          <div class="fourteen hvr-hollow-red grid-item"><a href="fooddrink.html#14"><h2>14</h2></a></div>
-          <div class="twentyfour grid-item"><h2>24</h2></div>
+          <a href="fooddrink.html#14"><div class="fourteen hvr-hollow-red grid-item"><h2>14</h2></div></a>
+          <a href="fooddrink.html#24"><div class="twentyfour hvr-hollow-red grid-item"><h2>24</h2></div></a>
           <div class="eleven grid-item"><h2>11</h2></div>
-          <div class="thirteen hvr-hollow-blue grid-item"><h2>13</h2></div>
-          <div class="twenty grid-item"><h2>20</h2></div>
+          <a href="fooddrink.html#13"><div class="thirteen hvr-hollow-blue grid-item"><h2>13</h2></div></a>
+          <a href="events.html#20"><div class="twenty hvr-hollow-green grid-item"><h2>20</h2></div></a>
           <div class="blank grid-item"></div>
         </main>
       </div>
       <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
       <script src="./javascript/advent.js"></script>
 
+      <footer class="footer">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+      </footer>
+      
   </body>
+
 </html>

@@ -190,14 +190,12 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
 
 .christmasfair,
 .harewood,
 .wintertrail,
 .lotherton,
-
  {
   width: 100%;
   margin: .5rem;

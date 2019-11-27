@@ -208,11 +208,7 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
-<<<<<<< HEAD:CSS/fooddrink.css
-    .foodfestivals, .roasts, .drinks {
-=======
     .christmasmarkets, .year-round {
->>>>>>> c79f27f0324d1ee77396d9405abfdbed7b3c5a95:CSS/markets.css
     flex-wrap: wrap;
   }
 }

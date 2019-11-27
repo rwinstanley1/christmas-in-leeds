@@ -86,7 +86,8 @@ a {
 /* !!home page specific!! */
 
 .home-body {
-  overflow: hidden
+  overflow: hidden;
+  text-shadow: 2px 2px black;
 }
 
 .home h1 {

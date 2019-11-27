@@ -9,20 +9,23 @@ body {
  top: 0;
  font-family: 'Roboto', sans-serif;
  font-size: 20px;
+ text-align: center;
+ overflow: auto;
 }
 
 nav a {
   font-family: 'Bebas Neue', cursive;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
   font-family: 'Bebas Neue', cursive;
 }
+
 
 h1 {
   text-align: center;
   color: #ff6860;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 h2 {
@@ -32,12 +35,9 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
-}
-
-.content .heading {
+  font-size: 20px;
   text-align: center;
-  font-size: 25px;
+  color: black;
 }
 
 .container {
@@ -68,18 +68,26 @@ nav {
 }
 
 .heading {
-  grid-column: 1 / 5;
+  grid-column: 1 / 5 ;
   grid-row: 2 / 7;
 }
 
 .content {
   grid-column: 2 / 4;
-  grid-row: 5 / 10;
-  background-color: white;
-  z-index: 2;
-  border-radius: 30px;
-  padding: 0 3%;
+  grid-row: 5 / 7;
+  z-index: 1;
+
 }
+
+  .subtitle {
+  background-color: #F5F5F5;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  margin: .5rem;
+}
+
 
 
 .navitem {
@@ -110,9 +118,8 @@ a {
   text-decoration: none;
 }
 
-.markets {
+.about-us {
   text-decoration: underline;
-
 }
 
 @media screen and (max-width: 1350px) {
@@ -120,14 +127,16 @@ a {
    padding: 3% ;
  }
 }
- @media screen and (max-width: 1100px) {
-  nav a {
-    padding: 0% ;
-  }
+
+@media screen and (max-width: 1100px) {
+ nav a {
+   padding: 0 ;
+ }
 }
 
 @media screen and (max-width: 700px) {
  nav {
+   z-index: 2;
    overflow: hidden;
    align-items:center;
    width: 20%;
@@ -144,6 +153,7 @@ a {
  padding: 16px;
  font-size: 16px;
  border: none;
+ z-index: 2;
 }
  .dropdown {
    position: relative;
@@ -152,7 +162,7 @@ a {
 
  .dropdown-content {
    display: none;
-   z-index: 1;
+   z-index: 2;
  }
 
  .dropdown-content a {
@@ -160,6 +170,7 @@ a {
    padding: 12px 16px;
    text-decoration: none;
    display: block;
+   z-index: 2;
  }
 
  .dropdown-content a:hover {
@@ -168,7 +179,8 @@ a {
  }
 
  .dropdown:hover .dropdown-content {
-   display: block;}
+   display: block;
+ }
 
  .dropdown:hover .dropbtn {
    background-color: #ff6860;
@@ -177,42 +189,65 @@ a {
  .mainnav {
    display: none;
  }
-
+}
 
 img {
   object-fit: cover;
   max-width: 100%;
 }
 
-.christmasmarkets, .year-round
- {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.christkindelmarkt,
-.kirkgate,
-.corn-exchange,
-.farmers-market,
- {
-  width: 100%;
-  margin: .5rem;
-}
-
-.christmasmarkets article, .year-round article {
-  background-color: #F5F5F5;
-  border-radius: 25px;
-  padding: 20px;
-  margin: 20px;
+iframe {
+  object-fit: cover;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
-<<<<<<< HEAD:CSS/fooddrink.css
-    .foodfestivals, .roasts, .drinks {
-=======
-    .christmasmarkets, .year-round {
->>>>>>> c79f27f0324d1ee77396d9405abfdbed7b3c5a95:CSS/markets.css
+    .content {
     flex-wrap: wrap;
   }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 2px;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.footer {
+  height: 100px;
+  top: calc(100% - 100px);
+  width: 100%;
 }

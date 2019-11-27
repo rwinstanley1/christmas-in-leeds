@@ -87,24 +87,26 @@ a {
 
 .home-body {
   overflow: hidden;
-  text-shadow: 2px 2px black;
 }
 
 .home h1 {
   text-align: center;
   color: white;
   font-size: 70px;
+  text-shadow: 2px 2px black;
 }
 
 .home h2 {
   font-size: 35px;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px black;
 }
 
 .home p {
   color: white;
-}
+  text-shadow: 2px 2px black;
+ }
 
 .content .heading {
   text-align: center;

@@ -185,7 +185,7 @@ img {
 }
 
 .christmasmarkets, .year-round
- {
+  {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;

@@ -25,6 +25,11 @@ img {
   max-width: 100%;
 }
 
+iframe {
+  object-fit: cover;
+  max-width: 100%;
+}
+
   /* standard page layout */
 
 .container {

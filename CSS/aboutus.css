@@ -195,10 +195,7 @@ img {
   max-width: 100%;
 }
 
-iframe {
-  object-fit: cover;
-  max-width: 100%;
-}
+
 
 @media screen and (max-width: 1000px) {
     .content {

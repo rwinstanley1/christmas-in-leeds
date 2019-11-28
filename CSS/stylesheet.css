@@ -249,6 +249,10 @@ a {
   background-color: white;
 }
 
+.background-image {
+  background-image: url(../Images/presents.jpg);
+}
+
 /* !!advent calendar specific!! */
 
 .advent  {

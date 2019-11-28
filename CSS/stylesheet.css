@@ -249,6 +249,11 @@ a {
   background-color: white;
 }
 
+.about-heading {
+  grid-column: 2 / 4;
+  grid-row: 2 / 8;
+}
+
 
 /* !!advent calendar specific!! */
 
